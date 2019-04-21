@@ -5,7 +5,7 @@ Belajar mongodb dengan spring boot
 - findAll
   GET http://URL:PORT/api/customers?page=0&size=2 (param Pageable)
 - findByName
-  GET http://URL:PORT/api/customers/name/adi?page=0&size=2 (param Customer, Pageable)
+  GET http://URL:PORT/api/customers/name/customerName?page=0&size=2 (param customer name, Pageable)
 - findById
   GET http://URL:PORT/api/customers/id (param id)
 - insert
