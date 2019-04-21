@@ -3,14 +3,14 @@ Belajar mongodb dengan spring boot
 
 # Url Api 
 - findAll
-  GET http://URL:PORT/api/customers?page=0&size=2 (param Pageable)
+  GET http://url:port/api/customers?page=0&size=2 (param Pageable)
 - findByName
-  GET http://URL:PORT/api/customers/name/customerName?page=0&size=2 (param customer name, Pageable)
+  GET http://url:port/api/customers/name/customerName?page=0&size=2 (param customer name, Pageable)
 - findById
-  GET http://URL:PORT/api/customers/id (param id)
+  GET http://url:port/api/customers/id (param id)
 - insert
-  POST http://URL:PORT/api/customers (body Customer)
+  POST http://url:port/api/customers (body Customer)
 - update 
-  PUT http://URL:PORT/api/customers/id (param id)
+  PUT http://url:port/api/customers/id (param id)
 - delete
-  DELETE http://URL:PORT/api/customers/id (param id
+  DELETE http://url:port/api/customers/id (param id)
